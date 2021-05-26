@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://65.0.21.225:9999/aruntech/repository/asda-release/</url>
+	      <url>http://13.127.154.24:9999/aruntech/repository/asda-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://65.0.21.225:9999/aruntech/repository/asda-snapshot/</url>
+	      <url>http://13.127.154.24:9999/aruntech/repository/asda-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
