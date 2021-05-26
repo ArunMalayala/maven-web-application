@@ -4,7 +4,7 @@ def mavenHome = tool name: "Maven3.8.1"
 
 //properties([pipelineTriggers([pollSCM('* * * * *')])])
 
-//properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
+properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])
 
 	stage('CheckoutCode')
 	{
